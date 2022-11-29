@@ -1,0 +1,28 @@
+{
+  "name": "electron-critical-css-app",
+  "productName": "Critical CSS Generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron-forge start",
+    "watch": "electronmon .",
+    "package": "electron-forge package",
+    "make": "electron-forge make"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "critical": "^2.0.1",
+    "electron-squirrel-startup": "^1.0.0",
+    "electronmon": "^2.0.2"
+  },
+  "devDependencies": {
+    "@electron-forge/cli": "^6.0.3",
+    "@electron-forge/maker-deb": "^6.0.3",
+    "@electron-forge/maker-rpm": "^6.0.3",
+    "@electron-forge/maker-squirrel": "^6.0.3",
+    "@electron-forge/maker-zip": "^6.0.3",
+    "electron": "^21.3.1"
+  }
+}
