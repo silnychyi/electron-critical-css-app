@@ -8,7 +8,10 @@
     "start": "electron-forge start",
     "watch": "electronmon .",
     "package": "electron-forge package",
-    "make": "electron-forge make"
+    "make": "electron-forge make",
+    "make-mac-arm": "electron-forge make --arch=arm64 --platform=darwin",
+    "make-mac-x64": "electron-forge make --arch=x64 --platform=darwin",
+    "package-linux": "electron-forge package --arch=x64 --platform=linux"
   },
   "author": "",
   "license": "MIT",
