@@ -2,6 +2,8 @@
 
 Desktop app that generates critical css based on url provided
 
+<img width="400px" src="./screenshot.png" />
+
 Download:\
 [Mac ARM](https://github.com/silnychyi/electron-critical-css-app/blob/master/build/mac/Critical%20CSS%20Generator-darwin-arm64-1.0.0.zip)\
 [Mac Intel](https://github.com/silnychyi/electron-critical-css-app/blob/master/build/mac/Critical%20CSS%20Generator-darwin-x64-1.0.0.zip)
